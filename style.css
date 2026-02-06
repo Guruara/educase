@@ -1,0 +1,56 @@
+/*
+ Theme Name:   Hello Elementor Child
+ Theme URI:    https://tys.world/
+ Description:  Pixel-perfect child theme for The Yenepoya World recreation.
+ Author:       Antigravity
+ Template:     hello-elementor
+ Version:      1.0.0
+*/
+
+/* 
+   ==========================================================================
+   THE YENEPOYA WORLD CUSTOM STYLES
+   ========================================================================== 
+*/
+
+:root {
+    --tys-teal: #5EB5C0;
+    --tys-light-blue: #F0F8FA;
+    --tys-yellow: #FFF9E6;
+    --tys-dark: #2C3E50;
+    --tys-gray: #7A7A7A;
+}
+
+/* Global Fixes */
+.elementor-section {
+    position: relative;
+}
+
+/* Specific Section Adjustments for Pixel Perfection */
+.tys-hero-grid img {
+    object-fit: cover;
+    height: 400px;
+    /* Adjust based on exact screenshot ratio */
+    width: 100%;
+}
+
+.tys-divider-center {
+    width: 60px;
+    height: 4px;
+    background-color: var(--tys-teal);
+    margin: 20px auto;
+}
+
+/* Stats Counter Styling */
+.tys-counter .elementor-counter-number-wrapper {
+    color: var(--tys-teal);
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.tys-counter .elementor-counter-title {
+    color: var(--tys-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

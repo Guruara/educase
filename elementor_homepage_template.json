@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "id": "hero-section",
+            "elType": "section",
+            "settings": {
+                "structure": "30",
+                "background_background": "classic"
+            },
+            "elements": [
+                {
+                    "id": "hero-col-1",
+                    "elType": "column",
+                    "settings": { "_column_size": 33 },
+                    "elements": [ { "id": "img1", "elType": "widget", "widgetType": "image" } ]
+                },
+                {
+                    "id": "hero-col-2",
+                    "elType": "column",
+                    "settings": { "_column_size": 34 },
+                    "elements": [ { "id": "img2", "elType": "widget", "widgetType": "image" } ]
+                },
+                {
+                    "id": "hero-col-3",
+                    "elType": "column",
+                    "settings": { "_column_size": 33 },
+                    "elements": [ { "id": "img3", "elType": "widget", "widgetType": "image" } ]
+                }
+            ]
+        },
+        {
+            "id": "stats-section",
+            "elType": "section",
+            "settings": { "padding": { "unit": "px", "top": "80", "bottom": "80" } },
+            "elements": [
+                {
+                    "id": "stats-col",
+                    "elType": "column",
+                    "elements": [
+                        { "id": "stat-1", "elType": "widget", "widgetType": "counter", "settings": { "starting_number": 0, "ending_number": 1954, "title": "Students" } },
+                        { "id": "stat-2", "elType": "widget", "widgetType": "counter", "settings": { "starting_number": 0, "ending_number": 934, "title": "Parents" } }
+                    ]
+                }
+            ]
+        }
+    ],
+    "page_settings": {
+        "title": "Home - The Yenepoya World",
+        "post_status": "publish"
+    }
+}
